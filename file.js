@@ -1,7 +1,7 @@
 // file handling
 const fs=require("fs");
 // this is synchronous
-fs.writeFileSync("./test.txt","Hello synchronous");
+// fs.writeFileSync("./test.txt","Hello synchronous");
 
 // 
 // fs.writeFile("./test.txt","Hello Asynchronous",(err,result)=>{
@@ -31,7 +31,7 @@ fs.writeFileSync("./test.txt","Hello synchronous");
 
 /* appending to a file   */
 
-fs.appendFileSync("./test.txt",`${Date.now()} Hey there`);
+// fs.appendFileSync("./test.txt",`${Date.now()} Hey there`);
 
 //copying one file to another
 
@@ -41,4 +41,4 @@ fs.appendFileSync("./test.txt",`${Date.now()} Hey there`);
 
 // console.log(fs.statSync(" ./contacts.txt").isFile());
 
-fs.mkdir("my-docs/a");
+// fs.mkdir("my-docs/a");
